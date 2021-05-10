@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recSearch"
+    tools:context=".Botons_Fragment.Fragment_Buscar"
+    android:background="@drawable/buscarpeli">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lista_recyclerview"
+        android:layout_width="355dp"
+        android:layout_height="472dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rectangulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_buscar"
+        app:layout_constraintVertical_bias="0.45">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/et_buscar"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/nombrepeli"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Busca la teva peli/serie"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:text="Pokemon"
+        android:textColor="#FE6262"
+        app:layout_constraintEnd_toStartOf="@+id/btn_BuscarPeli"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_BuscarPeli"
+        android:layout_width="67dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/boton"
+        android:fontFamily="sans-serif-black"
+        android:text="Buscar"
+        android:textColor="#F44336"
+        android:textSize="14sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

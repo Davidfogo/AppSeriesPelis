@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="Buscar" />
+
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Listas"/>
+
+    <item
+        android:id="@+id/fourFragment"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="Social"/>
+</menu>

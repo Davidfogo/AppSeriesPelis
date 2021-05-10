@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1016828399186",
+    "firebase_url": "https://pelisseriesdavid-default-rtdb.firebaseio.com",
+    "project_id": "pelisseriesdavid",
+    "storage_bucket": "pelisseriesdavid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016828399186:android:241c38ed97bdce74ba598b",
+        "android_client_info": {
+          "package_name": "com.example.appseriespelis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016828399186-9hjp8r4qki5l4qske55lstkirpaltth5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-mcBSHY6CN5KDSDEjesGqCylxlAIWO6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016828399186-9hjp8r4qki5l4qske55lstkirpaltth5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
